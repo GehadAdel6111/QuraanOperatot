@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quraan Operator</title>
+    <link rel="icon" href="/Images/quraan.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="dropDown">
+                <img src="/fontawesome-free-6.5.2-web/svgs/solid/ellipsis-vertical.svg" alt="list icon" id="dropDownIcon" onclick="dropDown()">
+                <div class="drop_down_content" id="dropDownContent">
+                    <a href="dropDown" onclick="toggleLoop()">Loop</a>
+                    <hr>
+                    <a href="dropDown" onclick="toggleNoLoop()">No Loop</a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/Images/pexels-tayebmezahdia-318451.jpg" alt="Image">
+            </div>
+            <div class="audio">
+                <h3>الشيخ مشاري</h3>
+                <audio controls id="audio">
+                    <source src="/Audio/سوره الإخلاص والفلق والناس بصوت الشيخ مشارى العفاسي.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
